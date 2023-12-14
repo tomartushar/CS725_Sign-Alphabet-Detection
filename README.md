@@ -10,4 +10,4 @@ Classify the images containing alphabets in sign languages. Using TensorFlow and
 * Significantly higher live performance.
 
 ## Heatmap for Different Classes
-![ScreenShot](confusion_matrix.png)
+![ScreenShot](images/confusion_matrix.png)
