@@ -1,13 +1,20 @@
 # Sign Alphabet Detection
-Classify the images containing alphabets in sign languages. Using TensorFlow and Tkinter provides a clean `GUI` to the user.
+
+This project aims to classify images containing alphabets in sign languages using TensorFlow. The application features a user-friendly GUI built with Tkinter.
 
 ## Dataset & Performance
-1. Dataset used initially is available [here](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
-* `Train accuracy`: 95%, `Test accuracy`: 93%
-* Achieved poor performance in a live environment by a model trained on the above dataset because of image quality of train and live data, live images were of significantly lower quality.
-2. Custom dataset is generated using [dataset_generater_tool.py](dataset_generater_tool.py) to reduce bias of train dataset.
-* `Train accuracy`: 96%, `Test accuracy`: 93%
-* Significantly higher live performance.
+
+1. **Original Dataset:** The initial dataset used is available [here](https://www.kaggle.com/datasets/grassknoted/asl-alphabet).
+   - *Train Accuracy:* 95%
+   - *Test Accuracy:* 93%
+   - However, the model's performance in a live environment was suboptimal due to differences in image quality between the training and live data. Live images were notably of lower quality.
+
+2. **Custom Dataset:** To address the bias in the original dataset, a custom dataset was generated using the [dataset_generater_tool.py](dataset_generater_tool.py).
+   - *Train Accuracy:* 96%
+   - *Test Accuracy:* 93%
+   - Notably, this model exhibited significantly improved performance in live scenarios.
 
 ## Heatmap for Different Classes
-![ScreenShot](images/confusion_matrix.png)
+
+![Confusion Matrix Heatmap](images/confusion_matrix.png)
+
